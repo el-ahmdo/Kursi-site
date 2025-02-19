@@ -1,0 +1,72 @@
+.product-card {
+    position: relative;  /* Allows absolute positioning inside */
+    width: 350px;        /* Adjust as needed */
+    height: 450px;       /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;  /* Prevents content from spilling */
+    padding: 1px 14px;
+}
+
+/* Header at the top */
+.card-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #23262D;
+    padding: 0px 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card-header-left{
+
+    display: flex;
+    gap: 7px;
+    align-items: center;
+
+}
+.card-header-right{
+    margin: auto 0;
+
+}
+
+.card-header-left h3{
+    font-family: Roboto;
+font-weight: 900;
+font-size: 28px;
+line-height: 80px;
+letter-spacing: 1px;
+
+}
+
+/* Footer at the bottom */
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    width: 90%;
+    background: #AA6D30;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-footer-button{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #ffffff18;
+
+}

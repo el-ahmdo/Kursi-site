@@ -1,0 +1,150 @@
+.hero-container{
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-columns: 33% 67%; 
+grid-template-rows: minmax(700px, auto) minmax(250px, auto) ;
+}
+
+@media (max-width: 700px){
+  .hero-container{
+    grid-template-columns: 100%;
+
+  }
+  .grid-4{
+    flex-direction: column;
+  }
+}
+
+
+.grid-1{
+    display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 40px;
+  align-items: flex-start;
+  padding-left: 18px;
+  gap: 30px;
+}
+.hero-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 404px;
+   
+  }
+  
+  .brown{
+    color: var(--orange-color);
+  }
+  .hero-heading h2{
+    font-size: 60px;
+    line-height: 70px;
+    font-family: roboto;
+    font-weight: 600;
+    line-height: 71px;
+  }
+  .hero-heading p{
+    color: var(--orange-color);
+  line-height: 22.5px;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  }
+  
+  .hero-text-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 289px;
+    min-height: 55px;
+ }
+
+  .hero-contact-us{
+    border: 2px solid var(--orange-color);
+    background-color: white;
+    max-width: 159px;
+    min-height: 55px;
+    border-radius: 8px;
+    padding: 16px 30px ;
+  color: var(--orange-color);
+  line-height: 23px;
+  text-align: center;
+  transition: background 0.2s ease;
+  }
+
+  .hero-contact-us:hover,.hero-faq:hover{
+    background-color: var(--orange-color);
+    color: white;
+  }
+
+  .hero-faq{
+    border: 2px solid var(--orange-color);
+    background-color: white;
+    max-width: 110px;
+    min-height: 100%;
+    border-radius: 8px;
+    padding: 16px 30px ;
+  color: var(--orange-color);
+  line-height: 23px;
+  text-align: center;
+  }
+
+
+  .hero-items.sustainable {
+    width:100%;
+    height: 100%; 
+    background-color: var(--ash-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 30px;
+  }
+.baground{
+width: 100%;
+max-width: 970px;
+    min-height: 100%;
+}
+  .grid-4{
+  width: 100%;
+  height: auto;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+
+  }
+ 
+  .sustainable-container.rest{
+    height: 100%;
+    background: var(--orange-color);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: .5rem;
+    color: white;
+    flex: 1;
+    }
+    .sustainable-container h2{
+        font-family: Roboto;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 35.16px;
+      text-align: left;
+      color: white;
+      }
+      .sustainable-container p{
+        font-family: Roboto;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 27px;
+      text-align: left;
+      color: white;
+      }
+      .sustainable-container img{
+        width: 70px;
+        height: 70px;
+      }

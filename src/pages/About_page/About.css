@@ -1,0 +1,49 @@
+.subsidiaries__section_head{
+width: 60%;
+display: flex;
+flex-direction: column;
+
+}
+.subsidiaries__section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #AA6D30;
+    margin-top: 4rem;
+    padding: 2rem 0 10rem 3rem;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 19.88% 99.44%, px 84.31%);
+}
+
+.subsidiaries__section h2{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 58px;
+line-height: 102.02px;
+letter-spacing: 0%;
+color: #ECFFFC;
+
+}
+.subsidiaries__section p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 44.46px;
+letter-spacing: 0%;color: #ECFFFC;
+
+
+}
+.subsidiaries__section_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: minmax(300px, auto);
+    width: 100%;
+}
+@media (max-width: 700px){
+    .subsidiaries__section_head{
+        width: 100%;
+    }
+    .subsidiaries__section_cards{
+        grid-template-columns: 100%;
+    }
+    
+}

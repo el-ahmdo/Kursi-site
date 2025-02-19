@@ -1,0 +1,269 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.About_hero{
+width: 100%;
+min-height:700px;
+display: flex;
+margin-top: 1rem;
+padding-top: 2rem;
+background: #F5F2F0;
+padding-left: 3rem;
+
+
+}
+@media (max-width: 700px){
+    .About_hero{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .About-hero-left-head{
+        flex-direction: column;
+        padding-left:1rem ;
+        gap: 
+        10px;
+        text-align: center;
+    }
+
+
+}
+.About-hero-left{
+flex: 3;
+min-height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.About-hero-right{
+    flex: 2;
+    min-height: 100%;
+}
+.About-hero-left-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About-hero-left-head-text{
+    flex: 2;
+}
+.About-hero-left-head-text span{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 30px;
+line-height: 21.36px;
+letter-spacing: 0%;
+
+}
+.About-hero-left-head-text p{
+    color: #405261;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 15.55px;
+line-height: 25.28px;
+letter-spacing: 0%;
+padding-top: 5px;
+
+
+}
+.About-hero-left-head-btn{
+    flex: 0.5;
+   
+
+
+}
+.About-hero-left-head-btn div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 150px;
+    min-height: 40px;
+    background: #AA6D30;
+    justify-content: center;
+    border-radius: 3.8px;
+    color: white;
+
+
+}
+.About-hero-left-head-btn div img{
+    height: 14px;
+}
+
+/* main hero  styles */
+.bord_chairman{
+    width: 95%;
+    display: flex;
+    margin-top: 2rem;
+    gap: 20px;
+}
+
+.bord_chairman-left{
+    width: 40%;
+    height: 100%;
+}
+.bord_chairman-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+
+}
+.bord_chairman-right span{
+    color: #AA6D30;
+    font-family: Roboto;
+font-weight: 800;
+font-size: 30px;
+line-height: 35.16px;
+letter-spacing: -2.5%;
+}
+.bord_chairman-right h2{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: -2.5%;
+    text-align: center;
+
+}
+
+
+.directors_box{
+    width: 100%;
+    display: flex;
+    min-height: 250px;
+}
+.director-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+.director-card h2{
+    font-family: Roboto;
+font-weight: 600;
+font-size: 18px;
+line-height: 25.78px;
+letter-spacing: -2.5%;
+text-align: center;
+color: #AA6D30;
+
+
+}
+.director-card h1{
+    font-family: Roboto;
+font-weight: 600;
+font-size: 16px;
+line-height: 21.09px;
+letter-spacing: -2.5%;
+text-align: center;
+
+}
+directors-img{
+    width: 200px;
+    height: 150px;
+}
+
+.About-hero-right {
+    display: flex;
+    align-items: center;
+}
+.About-texts{
+    width: 100%;
+    min-height:430px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 40px;
+line-height: 72px;
+letter-spacing: 1%;
+color: #1F2A40;
+
+}
+
+
+.About_us_section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background: #F5EDE9;
+    padding-left: 3rem;
+
+}
+.About_us_section_text{
+    width: 40%;
+   display: flex;
+   flex-direction: column;
+     gap: 20px;
+}
+.About_us_section_text h1{
+    font-family: Roboto;
+font-weight: 800;
+font-size: 48px;
+line-height: 52.8px;
+letter-spacing: 0%;
+
+}
+.About_us_section_text p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0%;
+
+}
+.our-products-button{
+    width: 180px;
+    background: #AA6D30;
+  
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    min-height: 56px;
+}
+.About_us_section_image{
+    width: 60%;
+    padding-left: 2rem;
+
+}
+.About_us_section_image img{
+    width: 100%;
+
+    box-shadow: 0px 0px 10px 0px #00000012;
+
+box-shadow: 0px 20px 25px -5px #0000001A;
+
+}
+@media (max-width: 700px){
+    .About-texts{
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .About_us_section{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: start;
+        padding: 1rem;
+    }
+
+  .About_us_section_text{
+    width: 100%;
+  }
+  .About_us_section_image{
+    width: 100%;
+    padding: 0;
+   
+  }
+ .About_us_section_image img{
+
+
+  }
+}

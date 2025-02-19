@@ -1,0 +1,326 @@
+/* Full-width section */
+.find-jobs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #9D4F04;
+    min-height: 250px;
+}
+  
+  /* Inner container (80% width, centered) */
+  .find-jobs-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+  
+  /* Left side (60%) */
+  .find-jobs-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 100px;
+  }
+  
+  .find-jobs-left h2{
+    margin-bottom: 10px;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: 0%;
+color: #fff;
+  }
+  
+  .find-jobs-left input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px 0px #00000013 inset;
+
+  }
+  
+  /* Right side (40%) */
+  .find-jobs-right {
+    width: 40%;
+    display: flex;
+    align-items: end;
+    min-height: 100px;
+
+  }
+ 
+  
+  .find-jobs-right input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 10px; /* Small gap */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px 0px #00000013 inset;
+  }
+  
+  .search-button {
+    width:50px;
+    padding: 12px;
+    background: #AA6D30;
+    box-shadow: 0px 1px 1px 0px #00000013 inset;  
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .search-button img{
+    margin: 0 auto;
+  }
+
+  /* jobs cards styles */
+  .job-cards-section-container{
+    width: 100%;
+    background: #FFECD9;
+min-height: 350px;
+display: flex;
+  }
+  
+  .job-cards-container{
+    width: 80%;
+    margin: auto;
+    background: #FFFFFF;
+min-height: 250px;
+display: flex;
+  }
+  .jobcard{
+    flex: 1;
+    border: 1px solid #EAEDF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+     border-radius: 2px;
+  }
+
+  .jobcard h3{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+
+  }
+  .jobcard p{
+  font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .jobcard div{display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .viewJobes{
+    width: 55%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+  }
+
+   /* explore opportunities styles */
+  .Explore-opportunities-section h3 {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 30px;
+line-height: 39.99px;
+letter-spacing: 0%;
+text-align: center;
+
+
+  }
+
+  /* Full-width section */
+.Job-opportunities-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #f8f8f8; /* Light background */
+  }
+  .Job-opportunities-section h2{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 30px;
+line-height: 39.99px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 3rem;
+  }
+  
+  /* Cards container (80% width, centered) */
+  .Job-opportunities-cards-container{
+    width: 80%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Individual cards */
+  .job-card {
+    width: 30%; /* Each card takes roughly one-third of the container */
+    background: white;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    min-height: 300px; /* Minimum height */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000020
+  }
+  
+  /* Job Image */
+  .job-card img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Job Title */
+  .job-card h3 {
+    margin: 10px 0;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 19.22px;
+line-height: 28px;
+letter-spacing: 0%;
+
+  }
+  
+  /* Job Description */
+  .job-description {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15.88px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+  }
+  
+  /* See All Jobs */
+
+  .job_content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+text-align: left;
+    padding: 10px 25px;
+  }
+
+  .see_all{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #0073A8;
+margin-top: 1rem;
+
+  }
+  .build_future_section{
+    width: 100%;
+    padding: 3rem 0 0 8.7rem;
+    background: #FFECD9;
+    min-height: 300px;
+  }
+  .build_future_content{
+    width: 60%;
+  }
+  .build_future_content h2{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+letter-spacing: 0%;
+
+  }
+
+  .build_future_content p{
+    font-family: Roboto;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+margin-top: 1rem;
+width: 75%;
+  }
+.Learn-more{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 1rem;
+  }
+  .Learn-more h2{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+}
+@media (max-width: 700px){
+  .find-jobs-content {
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem .9rem;
+    gap: 0;
+  }
+  .find-jobs-left,  .find-jobs-right{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .job-cards-container{
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .Job-opportunities-cards-container{
+    width: 100;
+    flex-direction: column; gap: 10px;
+  }
+  .viewJobes{
+    margin: 2rem auto;
+  }
+  .Job-opportunities-cards-container .job-card{ 
+    width: 100%;
+  }
+  .build_future_section{
+    padding: 0;
+  }
+  .build_future_content{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .build_future_content p{
+    width: 90%;
+  }
+}

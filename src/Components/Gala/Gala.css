@@ -1,0 +1,67 @@
+.Gallery-con {
+    position: relative;
+    width: 100%;  /* Increased size */
+    height: 660px; /* Increased size */
+
+}
+
+.stack {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Common styles for layers and image */
+.layer, .top-image {
+    position: absolute;
+    width: 85%; /* Increased width */
+    height: 450px; /* Increased height */
+}
+
+/* Topmost image */
+.top-image {
+    top: 0;
+    left: 0;
+    z-index: 5; /* Ensures it's above all */
+}
+
+.top-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Background color for the layers */
+.layer {
+    background: #23262D;
+  border: 1px solid #343841;
+}
+
+/* Offset each layer BELOW and to the RIGHT of the one above */
+.layer-1 { top: 5%; left: 4%; z-index: 4; }
+.layer-2 { top: 10%; left: 8%; z-index: 3; }
+.layer-3 { top: 15%; left: 12%; z-index: 2; }
+.layer-4 { top: 20%; left: 15%; z-index: 1; }
+
+
+.Photo_galery h1{
+    font-family: Roboto;
+font-weight: 600;
+font-size: 58px;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+color: #23262D;
+padding-bottom: 1rem;
+
+
+}
+@media (max-width: 700px){
+
+    .layer {
+        display: none;
+    }
+    
+    .top-image{
+        width: 100%;
+    }
+}

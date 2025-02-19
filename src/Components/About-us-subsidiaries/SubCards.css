@@ -1,0 +1,49 @@
+.SubCards_con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    border-radius: 16px;
+    padding: 2rem;
+
+}
+.SubCards_con:hover .number{
+    background: #AA6D30;
+    color: #F2F6FA;
+}
+.SubCards_con:hover{
+    background: #F2F6FA;
+}
+.SubCards_con:hover h3,.SubCards_con:hover p{
+    color: black;
+}
+.number{
+    width: 80px;
+    min-height: 80px;
+    border-radius: 48px;
+    color: #AA6D30;
+ background: #F2F6FA;
+ display: flex;
+ justify-content: center;
+ align-items: center;font-size: 30px;
+}
+
+
+.SubCards_con h3{
+    font-family: Hind Guntur;
+font-weight: 400;
+font-size: 30px;
+line-height: 31.76px;
+letter-spacing: 0%;
+color: #F2F6FA;
+
+}
+.SubCards_con p{
+    font-family: Hind Guntur;
+font-weight: 400;
+font-size: 20px;
+line-height: 31.76px;
+letter-spacing: 0%;
+
+}

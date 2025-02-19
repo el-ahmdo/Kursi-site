@@ -1,0 +1,53 @@
+.subsidiaries_section{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFF7F0 0%, #FFEBD8 100%);
+    width: 100%;
+    min-height: 600px;
+    padding:3rem 4rem ;
+  
+}
+.subsidiaries_section h2{
+    text-align: start;
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+.SubCardContainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 2rem;
+    row-gap: 3rem;
+
+}
+
+@media (max-width: 700px){
+    .SubCardContainer{
+        flex-direction: column;
+
+    }
+}
+
+
+.subBtnCon{
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.viewlessBtn{
+    width:  161px;
+min-height:56px;
+padding: 19.75px 40px 20.25px 40px;
+border-radius: 8px ;
+background: white;
+color: #AA6D30;
+margin: 0 auto;
+text-align: center;
+
+
+}
