@@ -50,7 +50,7 @@ function App() {
       <productsContext.Provider value={products}>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="Products" element={<Layout />}>
             <Route index element={<Product />} />
