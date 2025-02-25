@@ -100,6 +100,9 @@ color:#F3F4F6;
 .leftcard-image img,.rightcard-image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
 }
 .leftcard-text{
     width: 60%;
@@ -113,9 +116,6 @@ color:#F3F4F6;
 .rightcard-text{
     width: 60%;
     height: 100%;
-
-    width: 60%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -125,11 +125,10 @@ color:#F3F4F6;
 .Textcon{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     justify-content: start;
     align-items: start;
-    padding: 12px 18px 0px 12px;
-    margin-bottom: 2rem;
+    padding: 12px 18px 12px 12px;
   
 
 }.Textcon .gold{
@@ -154,6 +153,16 @@ text-align: left;
 color: white;
 
 }
+.read-more2{
+    font-size: .9rem;
+    width: 50%;
+    display: flex;
+}
+.read-more2 img{
+    width: .5rem;
+    height: .6rem;
+    margin-top: 7px;
+}
 .Textcon p{
     font-family: Inter;
 font-size: 14px;
@@ -164,9 +173,7 @@ width: 100%;
 color: white;
 
 }
-.Textcon .read-more{
-   color: white;
-}
+
 .morebutton{
     width: 100%;
 min-height: 30px;

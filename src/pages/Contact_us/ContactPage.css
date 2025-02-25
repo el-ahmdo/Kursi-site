@@ -9,12 +9,12 @@ input:focus,textarea:focus{
   
 .pageTitle{
     font-family: Inter;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: 0px;
-text-align: center;
-padding: 2rem 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #23262D;
+    text-align: center;
 }
 .Contact-us-section-conetent-conatiner{
     padding: 1rem 5rem;

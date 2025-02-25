@@ -1,6 +1,6 @@
 import React from "react";
 import "./About_Hero.css";
-import icon from "../Assets/images/Vector-6.png";
+import icon from "../Assets/images/Vector-7.png";
 import placeholder from "../Assets/images/Ellipse 3927.png";
 import chairman from "../Assets/images/Untitled-1 1.png";
 import company_his from "../Assets/images/CompanyHistory.png";

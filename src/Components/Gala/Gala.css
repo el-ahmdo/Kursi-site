@@ -2,7 +2,10 @@
     position: relative;
     width: 100%;  /* Increased size */
     height: 660px; /* Increased size */
-
+    margin-top: 1rem;
+}
+.Photo_galery{
+    margin-top: 3rem;
 }
 
 .stack {

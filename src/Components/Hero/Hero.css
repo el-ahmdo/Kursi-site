@@ -48,8 +48,8 @@ grid-template-rows: minmax(700px, auto) minmax(250px, auto) ;
   .hero-heading p{
     color: var(--orange-color);
   line-height: 22.5px;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 19px;
+  font-weight: 400;
   display: block;
   }
   

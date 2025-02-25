@@ -57,9 +57,9 @@ const News = () => {
             </div>
             {text[0].length > maxLength && (
               <p
-                className="read-more"
+                className="read-more2"
                 onClick={() => setIsExpanded(!isExpanded)}
-                style={{ cursor: "pointer", color: "#364152" }}
+                style={{ cursor: "pointer", color: "#fff" }}
               >
                 {isExpanded ? "Show less" : "Read more"}
                 <img src={icon} alt="Arrow" style={{ marginLeft: "5px" }} />
@@ -84,9 +84,9 @@ const News = () => {
             </div>
             {text[1].length > maxLength && (
               <p
-                className="read-more"
+                className="read-more2"
                 onClick={() => setIsExpanded(!isExpanded)}
-                style={{ cursor: "pointer", color: "#364152" }}
+                style={{ cursor: "pointer", color: "#ffffff" }}
               >
                 {isExpanded ? "Show less" : "Read more"}
                 <img src={icon} alt="Arrow" style={{ marginLeft: "5px" }} />
