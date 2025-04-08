@@ -22,7 +22,7 @@ const Product = () => {
             text={product}
           />
         ))}
-        <Outlet />
+        {/* <Outlet /> */}
       </div>
     </div>
   );
